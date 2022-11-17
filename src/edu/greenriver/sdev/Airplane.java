@@ -55,13 +55,4 @@ public class Airplane implements IAircraft
 
     }
 
-//    @Override
-//    public String toString()
-//    {
-//        return "Airplane{" + "typeOfPlane='" + typeOfPlane + '\'' +
-//                ", longitude=" + longitude +
-//                ", latitude=" + latitude +
-//                ", fuel=" + fuel +
-//                '}';
-//    }
 }

@@ -2,11 +2,12 @@ package edu.greenriver.sdev;
 /**
  *
  * @author Tarsem Bhachu
- *  *  * @author Hector Gonzalez
- *  *  * @version SDEV 426 presentation
- *
+ * @author Hector Gonzalez
+ * @version SDEV 426 presentation
+
  * Step 1 Create an interface
  *
+
  */
 public interface IAircraft
 {

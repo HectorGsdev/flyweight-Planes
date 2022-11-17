@@ -22,14 +22,14 @@ public class AircraftFactory
       Airplane airplane = (Airplane)airplaneMap.get(typeOfPlane);
       System.out.println("A plane of type " +typeOfPlane +" is landing");
 
-      if(airplane == null){   // comment out this remark to test implementation
+      if(airplane == null){   // comment out this remark to test output without flyweight
           airplane = new Airplane(typeOfPlane);
           airplaneMap.put(typeOfPlane,airplane);
           System.out.println("* * * * * * * * * * * * * * * * * *");
           System.out.println("Creating Airplane of type: " + typeOfPlane);
           System.out.println("* * * * * * * * * * * * * * * * * *");
           System.out.println();
-      }                     //
+      }                     // comment out this remark to test output without flyweight
 
       return airplane;
   }
